@@ -1,0 +1,23 @@
+{
+  "name": "sch_media",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn seed && node server.js",
+    "dev": "yarn seed && nodemon server.js",
+    "seed": "node ./scripts/seedDb.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "moment": "^2.29.4",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
